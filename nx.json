@@ -23,7 +23,18 @@
   "generators": {
     "@nx/react": {
       "library": {
+        "style": "none",
+        "linter": "none",
         "unitTestRunner": "none"
+      },
+      "application": {
+        "babel": true,
+        "style": "none",
+        "linter": "none",
+        "bundler": "rspack"
+      },
+      "component": {
+        "style": "none"
       }
     }
   }

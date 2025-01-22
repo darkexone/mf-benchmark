@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./libs/lib0"
+    },
+    {
+      "path": "./apps/app0"
     }
   ]
 }
