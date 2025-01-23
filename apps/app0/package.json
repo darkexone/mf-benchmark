@@ -59,5 +59,8 @@
         }
       }
     }
+  },
+  "dependencies": {
+    "@mf-benchmark/lib0": "workspace:*"
   }
 }
