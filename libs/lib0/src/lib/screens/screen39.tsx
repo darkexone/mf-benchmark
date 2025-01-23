@@ -9,16 +9,16 @@ import { Component7 } from '../components/component7';
 import { Component8 } from '../components/component8';
 import { Component9 } from '../components/component9';
 
-import { Component400 } from '../components/component10';
-import { Component401 } from '../components/component11';
-import { Component402 } from '../components/component12';
-import { Component403 } from '../components/component13';
-import { Component404 } from '../components/component14';
-import { Component405 } from '../components/component15';
-import { Component406 } from '../components/component16';
-import { Component407 } from '../components/component17';
-import { Component408 } from '../components/component18';
-import { Component409 } from '../components/component19';
+import { Component400 } from '../components/component400';
+import { Component401 } from '../components/component401';
+import { Component402 } from '../components/component402';
+import { Component403 } from '../components/component403';
+import { Component404 } from '../components/component404';
+import { Component405 } from '../components/component405';
+import { Component406 } from '../components/component406';
+import { Component407 } from '../components/component407';
+import { Component408 } from '../components/component408';
+import { Component409 } from '../components/component409';
 
 export const Screen39 = () => {
   return (

@@ -9,16 +9,16 @@ import { Component7 } from '../components/component7';
 import { Component8 } from '../components/component8';
 import { Component9 } from '../components/component9';
 
-import { Component430 } from '../components/component10';
-import { Component431 } from '../components/component11';
-import { Component432 } from '../components/component12';
-import { Component433 } from '../components/component13';
-import { Component434 } from '../components/component14';
-import { Component435 } from '../components/component15';
-import { Component436 } from '../components/component16';
-import { Component437 } from '../components/component17';
-import { Component438 } from '../components/component18';
-import { Component439 } from '../components/component19';
+import { Component430 } from '../components/component430';
+import { Component431 } from '../components/component431';
+import { Component432 } from '../components/component432';
+import { Component433 } from '../components/component433';
+import { Component434 } from '../components/component434';
+import { Component435 } from '../components/component435';
+import { Component436 } from '../components/component436';
+import { Component437 } from '../components/component437';
+import { Component438 } from '../components/component438';
+import { Component439 } from '../components/component439';
 
 export const Screen42 = () => {
   return (

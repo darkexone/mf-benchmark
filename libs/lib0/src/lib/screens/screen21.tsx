@@ -9,16 +9,16 @@ import { Component7 } from '../components/component7';
 import { Component8 } from '../components/component8';
 import { Component9 } from '../components/component9';
 
-import { Component220 } from '../components/component10';
-import { Component221 } from '../components/component11';
-import { Component222 } from '../components/component12';
-import { Component223 } from '../components/component13';
-import { Component224 } from '../components/component14';
-import { Component225 } from '../components/component15';
-import { Component226 } from '../components/component16';
-import { Component227 } from '../components/component17';
-import { Component228 } from '../components/component18';
-import { Component229 } from '../components/component19';
+import { Component220 } from '../components/component220';
+import { Component221 } from '../components/component221';
+import { Component222 } from '../components/component222';
+import { Component223 } from '../components/component223';
+import { Component224 } from '../components/component224';
+import { Component225 } from '../components/component225';
+import { Component226 } from '../components/component226';
+import { Component227 } from '../components/component227';
+import { Component228 } from '../components/component228';
+import { Component229 } from '../components/component229';
 
 export const Screen21 = () => {
   return (

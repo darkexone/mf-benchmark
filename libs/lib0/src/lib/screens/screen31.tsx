@@ -9,16 +9,16 @@ import { Component7 } from '../components/component7';
 import { Component8 } from '../components/component8';
 import { Component9 } from '../components/component9';
 
-import { Component320 } from '../components/component10';
-import { Component321 } from '../components/component11';
-import { Component322 } from '../components/component12';
-import { Component323 } from '../components/component13';
-import { Component324 } from '../components/component14';
-import { Component325 } from '../components/component15';
-import { Component326 } from '../components/component16';
-import { Component327 } from '../components/component17';
-import { Component328 } from '../components/component18';
-import { Component329 } from '../components/component19';
+import { Component320 } from '../components/component320';
+import { Component321 } from '../components/component321';
+import { Component322 } from '../components/component322';
+import { Component323 } from '../components/component323';
+import { Component324 } from '../components/component324';
+import { Component325 } from '../components/component325';
+import { Component326 } from '../components/component326';
+import { Component327 } from '../components/component327';
+import { Component328 } from '../components/component328';
+import { Component329 } from '../components/component329';
 
 export const Screen31 = () => {
   return (
