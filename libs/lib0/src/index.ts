@@ -48,3 +48,4 @@ export { Screen46 } from './lib/screens/screen46';
 export { Screen47 } from './lib/screens/screen47';
 export { Screen48 } from './lib/screens/screen48';
 export { Screen49 } from './lib/screens/screen49';
+export { default as Triangle0 } from './lib/comps/triangle';

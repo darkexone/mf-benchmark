@@ -1,57 +1,5 @@
+import { Triangle0 } from '@mf-benchmark/lib0';
 import { Route, Routes, Link } from 'react-router-dom';
-
-import {
-  Screen0,
-  Screen1,
-  Screen2,
-  Screen3,
-  Screen4,
-  Screen5,
-  Screen6,
-  Screen7,
-  Screen8,
-  Screen9,
-  Screen10,
-  Screen11,
-  Screen12,
-  Screen13,
-  Screen14,
-  Screen15,
-  Screen16,
-  Screen17,
-  Screen18,
-  Screen19,
-  Screen20,
-  Screen21,
-  Screen22,
-  Screen23,
-  Screen24,
-  Screen25,
-  Screen26,
-  Screen27,
-  Screen28,
-  Screen29,
-  Screen30,
-  Screen31,
-  Screen32,
-  Screen33,
-  Screen34,
-  Screen35,
-  Screen36,
-  Screen37,
-  Screen38,
-  Screen39,
-  Screen40,
-  Screen41,
-  Screen42,
-  Screen43,
-  Screen44,
-  Screen45,
-  Screen46,
-  Screen47,
-  Screen48,
-  Screen49,
-} from '@mf-benchmark/lib0';
 
 export function App() {
   return (
@@ -82,58 +30,13 @@ export function App() {
         <Route
           path="/lib0"
           element={
-            <div>
-              <Screen0 />
-              <Screen1 />
-              <Screen2 />
-              <Screen3 />
-              <Screen4 />
-              <Screen5 />
-              <Screen6 />
-              <Screen7 />
-              <Screen8 />
-              <Screen9 />
-              <Screen10 />
-              <Screen11 />
-              <Screen12 />
-              <Screen13 />
-              <Screen14 />
-              <Screen15 />
-              <Screen16 />
-              <Screen17 />
-              <Screen18 />
-              <Screen19 />
-              <Screen20 />
-              <Screen21 />
-              <Screen22 />
-              <Screen23 />
-              <Screen24 />
-              <Screen25 />
-              <Screen26 />
-              <Screen27 />
-              <Screen28 />
-              <Screen29 />
-              <Screen30 />
-              <Screen31 />
-              <Screen32 />
-              <Screen33 />
-              <Screen34 />
-              <Screen35 />
-              <Screen36 />
-              <Screen37 />
-              <Screen38 />
-              <Screen39 />
-              <Screen40 />
-              <Screen41 />
-              <Screen42 />
-              <Screen43 />
-              <Screen44 />
-              <Screen45 />
-              <Screen46 />
-              <Screen47 />
-              <Screen48 />
-              <Screen49 />
-            </div>
+            <svg
+              height="100%"
+              viewBox="-5 -4.33 10 8.66"
+              style={{ backgroundColor: 'black' }}
+            >
+              <Triangle0 style={{ fill: 'white' }} />
+            </svg>
           }
         />
         <Route
