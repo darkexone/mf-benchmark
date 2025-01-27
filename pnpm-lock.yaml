@@ -90,6 +90,8 @@ importers:
 
   libs/lib0: {}
 
+  libs/lib1: {}
+
 packages:
 
   '@ampproject/remapping@2.3.0':
