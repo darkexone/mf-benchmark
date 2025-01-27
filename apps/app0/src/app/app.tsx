@@ -1,4 +1,5 @@
-import { Triangle0 } from '@mf-benchmark/lib0';
+import { Triangle as Triangle0 } from '@mf-benchmark/lib0';
+import { Triangle as Triangle1 } from '@mf-benchmark/lib1';
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
@@ -12,27 +13,30 @@ export function App() {
           <li>
             <Link to="/lib0">Lib0</Link>
           </li>
+          <li>
+            <Link to="/lib1">Lib1</Link>
+          </li>
         </ul>
       </div>
       <Routes>
         <Route
           path="/"
-          element={
-            <div>
-              This is the generated root route.
-            </div>
-          }
+          element={<div>This is the generated root route.</div>}
         />
         <Route
           path="/lib0"
           element={
-            <svg
-              height="100%"
-              viewBox="-5 -4.33 10 8.66"
-              style={{ backgroundColor: 'black' }}
-            >
+            <Triangle>
               <Triangle0 style={{ fill: 'white' }} />
-            </svg>
+            </Triangle>
+          }
+        />
+        <Route
+          path="/lib1"
+          element={
+            <Triangle>
+              <Triangle1 style={{ fill: 'white' }} />
+            </Triangle>
           }
         />
       </Routes>
@@ -41,3 +45,15 @@ export function App() {
 }
 
 export default App;
+
+const Triangle = ({ children }: React.PropsWithChildren) => {
+  return (
+    <svg
+      height="100%"
+      viewBox="-5 -4.33 10 8.66"
+      style={{ backgroundColor: 'black' }}
+    >
+      {children}
+    </svg>
+  );
+};

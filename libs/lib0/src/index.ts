@@ -1,1 +1,1 @@
-export { default as Triangle0 } from './lib/comps/triangle';
+export { default as Triangle } from './lib/comps/triangle';
