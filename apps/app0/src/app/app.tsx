@@ -1,5 +1,6 @@
 import { Triangle as Triangle0 } from '@mf-benchmark/lib0';
 import { Triangle as Triangle1 } from '@mf-benchmark/lib1';
+import { Triangle as Triangle2 } from '@mf-benchmark/lib2';
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
@@ -15,6 +16,9 @@ export function App() {
           </li>
           <li>
             <Link to="/lib1">Lib1</Link>
+          </li>
+          <li>
+            <Link to="/lib2">Lib2</Link>
           </li>
         </ul>
       </div>
@@ -36,6 +40,14 @@ export function App() {
           element={
             <Triangle>
               <Triangle1 style={{ fill: 'white' }} />
+            </Triangle>
+          }
+        />
+        <Route
+          path="/lib2"
+          element={
+            <Triangle>
+              <Triangle2 style={{ fill: 'white' }} />
             </Triangle>
           }
         />

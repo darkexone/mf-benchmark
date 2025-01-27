@@ -62,6 +62,7 @@
   },
   "dependencies": {
     "@mf-benchmark/lib0": "workspace:*",
-    "@mf-benchmark/lib1": "workspace:*"
+    "@mf-benchmark/lib1": "workspace:*",
+    "@mf-benchmark/lib2": "workspace:*"
   }
 }
