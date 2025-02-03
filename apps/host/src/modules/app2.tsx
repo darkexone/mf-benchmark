@@ -1,4 +1,4 @@
-import { Triangle as Triangle2 } from 'lib2';
+import { Triangle as Triangle2 } from 'lib0';
 
 export function App() {
   return (

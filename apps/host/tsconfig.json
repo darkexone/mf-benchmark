@@ -3,13 +3,10 @@
   "include": [],
   "references": [
     {
-      "path": "../app2"
+      "path": "../../libs/lib1"
     },
     {
-      "path": "../app1"
-    },
-    {
-      "path": "../app0"
+      "path": "../../libs/lib0"
     },
     {
       "path": "./tsconfig.app.json"

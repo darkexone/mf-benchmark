@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 
-const App0 = React.lazy(() => import('app0/Module'));
-const App1 = React.lazy(() => import('app1/Module'));
-const App2 = React.lazy(() => import('app2/Module'));
+const App0 = React.lazy(() => import('../modules/app0'));
+const App1 = React.lazy(() => import('../modules/app1'));
+const App2 = React.lazy(() => import('../modules/app2'));
 
 export function App() {
   return (
