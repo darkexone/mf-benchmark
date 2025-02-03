@@ -29,6 +29,15 @@
     "sourceMap": false,
     "strict": true,
     "target": "es2022",
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "paths": {
+      "lib1": ["libs/lib1/src/index.ts"],
+      "lib2": ["libs/lib2/src/index.ts"],
+      "app0/Module": ["apps/app0/src/remote-entry.ts"],
+      "app1/Module": ["apps/app1/src/remote-entry.ts"],
+      "app2/Module": ["apps/app2/src/remote-entry.ts"],
+      "lib0": ["libs/lib0/src/index.ts"]
+    },
+    "baseUrl": "."
   }
 }

@@ -8,6 +8,21 @@
     },
     {
       "path": "./apps/app0"
+    },
+    {
+      "path": "./apps/host"
+    },
+    {
+      "path": "./apps/app1"
+    },
+    {
+      "path": "./apps/app2"
+    },
+    {
+      "path": "./libs/lib1"
+    },
+    {
+      "path": "./libs/lib2"
     }
   ]
 }
