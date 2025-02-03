@@ -25,11 +25,9 @@
         "production": {
           "mode": "production",
           "optimization": true,
-          "sourceMap": false,
-          "rspackConfig": "apps/app1/rspack.config.prod.ts"
+          "sourceMap": false
         }
-      },
-      "dependsOn": ["^build", "typecheck"]
+      }
     },
     "serve": {
       "executor": "@nx/rspack:module-federation-dev-server",
@@ -42,8 +40,7 @@
         "production": {
           "buildTarget": "app1:build:production"
         }
-      },
-      "dependsOn": ["typecheck"]
+      }
     },
     "lint": {
       "executor": "@nx/eslint:lint"

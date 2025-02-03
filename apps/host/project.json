@@ -1,5 +1,5 @@
 {
-  "name": "@mf-benchmark/host",
+  "name": "host",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/host/src",
   "projectType": "application",
@@ -25,25 +25,22 @@
         "production": {
           "mode": "production",
           "optimization": true,
-          "sourceMap": false,
-          "rspackConfig": "apps/host/rspack.config.prod.ts"
+          "sourceMap": false
         }
-      },
-      "dependsOn": ["^build", "typecheck"]
+      }
     },
     "serve": {
       "executor": "@nx/rspack:module-federation-dev-server",
       "options": {
-        "buildTarget": "@mf-benchmark/host:build:development",
+        "buildTarget": "host:build:development",
         "port": 4200
       },
       "configurations": {
         "development": {},
         "production": {
-          "buildTarget": "@mf-benchmark/host:build:production"
+          "buildTarget": "host:build:production"
         }
-      },
-      "dependsOn": ["typecheck"]
+      }
     },
     "lint": {
       "executor": "@nx/eslint:lint"
@@ -52,16 +49,17 @@
       "executor": "@nx/rspack:module-federation-static-server",
       "defaultConfiguration": "production",
       "options": {
-        "serveTarget": "@mf-benchmark/host:serve"
+        "serveTarget": "host:serve"
       },
       "configurations": {
         "development": {
-          "serveTarget": "@mf-benchmark/host:serve:development"
+          "serveTarget": "host:serve:development"
         },
         "production": {
-          "serveTarget": "@mf-benchmark/host:serve:production"
+          "serveTarget": "host:serve:production"
         }
       }
     }
-  }
+  },
+  "implicitDependencies": ["app0", "app1", "app2"]
 }

@@ -2,6 +2,7 @@ import { ModuleFederationConfig } from '@nx/module-federation';
 
 const config: ModuleFederationConfig = {
   name: 'app2',
+  library: { type: 'var', name: 'app2' },
   exposes: {
     './Module': './src/remote-entry.ts',
   },

@@ -30,15 +30,5 @@
     "eslint.config.mjs"
   ],
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
-  "references": [
-    {
-      "path": "../app2/tsconfig.app.json"
-    },
-    {
-      "path": "../app1/tsconfig.app.json"
-    },
-    {
-      "path": "../app0/tsconfig.app.json"
-    }
-  ]
+  "references": []
 }

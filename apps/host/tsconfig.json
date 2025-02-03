@@ -3,15 +3,6 @@
   "include": [],
   "references": [
     {
-      "path": "../app2"
-    },
-    {
-      "path": "../app1"
-    },
-    {
-      "path": "../app0"
-    },
-    {
       "path": "./tsconfig.app.json"
     }
   ],

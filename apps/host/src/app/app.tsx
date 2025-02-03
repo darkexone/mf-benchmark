@@ -1,9 +1,16 @@
 import * as React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
+import { loadRemote } from '@module-federation/enhanced/runtime';
 
-const App0 = React.lazy(() => import('app0/Module'));
-const App1 = React.lazy(() => import('app1/Module'));
-const App2 = React.lazy(() => import('app2/Module'));
+const App0 = React.lazy(
+  () => loadRemote('app0/Module') as Promise<{ default: React.ComponentType }>
+);
+const App1 = React.lazy(
+  () => loadRemote('app1/Module') as Promise<{ default: React.ComponentType }>
+);
+const App2 = React.lazy(
+  () => loadRemote('app2/Module') as Promise<{ default: React.ComponentType }>
+);
 
 export function App() {
   return (
