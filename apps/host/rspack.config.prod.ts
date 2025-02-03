@@ -38,6 +38,6 @@ const prodConfig: ModuleFederationConfig = {
  */
 export default composePlugins(
   withNx(),
-  withReact()
-  withModuleFederationprodConfig, { dts: false })
+  withReact(),
+  withModuleFederation(prodConfig, { dts: false })
 );
