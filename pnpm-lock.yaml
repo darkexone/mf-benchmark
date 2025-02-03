@@ -82,24 +82,6 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
 
-  apps/app0:
-    dependencies:
-      '@mf-benchmark/lib0':
-        specifier: workspace:*
-        version: link:../../libs/lib0
-      '@mf-benchmark/lib1':
-        specifier: workspace:*
-        version: link:../../libs/lib1
-      '@mf-benchmark/lib2':
-        specifier: workspace:*
-        version: link:../../libs/lib2
-
-  libs/lib0: {}
-
-  libs/lib1: {}
-
-  libs/lib2: {}
-
 packages:
 
   '@ampproject/remapping@2.3.0':
